@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+/* Navbar */
+
+nav{
+    background:#333;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 50px;
+}
+
+.logo p{
+    font-size:12px;
+}
+
+ul{
+    display:flex;
+    list-style:none;
+}
+
+ul li{
+    margin-left:20px;
+}
+
+ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+/* Hero Section */
+
+.hero{
+    background:#555;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:60px;
+}
+
+.text-section{
+    width:45%;
+}
+
+.text-section h1{
+    margin-bottom:20px;
+}
+
+.text-section p{
+    margin-bottom:20px;
+    line-height:1.6;
+}
+
+button{
+    background:#3b82f6;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+.image-section img{
+    width:350px;
+    border-radius: 20px;
+}
+
+/* About Section */
+
+.about{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:60px;
+    background:white;
+}
+
+.about-image img{
+    width:250px;
+    border-radius: 20px;
+}
+
+.about-text{
+    width:45%;
+}
+
+.about-text h2{
+    margin-bottom:20px;
+}
+
+.about-text p{
+    margin-bottom:15px;
+    line-height:1.6;
+}
