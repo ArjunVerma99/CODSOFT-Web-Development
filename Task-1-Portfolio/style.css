@@ -1,0 +1,267 @@
+/* Basic Page Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #444444;
+    background-color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Base Wrapper */
+.navBar{
+    width: 85%;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 20px;
+}
+
+.projectCard{
+    width: 85%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Clear float issues */
+.clear {
+    clear: both;
+}
+
+/* Global Heading Style */
+.heading {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #111111;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/* --- Header Section --- */
+.header {
+    background-color: #1a202c;
+    padding: 20px 0;
+}
+
+.logo {
+    color: #ffffff;
+    float: left;
+    margin: 0;
+    font-size: 24px;
+}
+
+.logo span {
+    color: #dd6b20; /* Unique Orange Accent Theme Color */
+}
+
+.menu {
+    float: right;
+    margin-top: 5px;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.menu a:hover {
+    color: #dd6b20;
+}
+
+
+/* --- About Section --- */
+.about-section {
+    padding: 80px 0;
+    background-color: #f7fafc;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.about-left {
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+.about-right {
+    width: 65%;
+    float: right;
+}
+
+.profile-img {
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    max-width: 80%;
+}
+
+.about-right h1 {
+    font-size: 36px;
+    color: #2d3748;
+    margin-bottom: 5px;
+}
+
+.tagline {
+    font-size: 18px;
+    color: #dd6b20;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.bio {
+    font-size: 16px;
+    color: #4a5568;
+    max-width: 80%;
+}
+
+
+/* --- Skills Section --- */
+.skills-section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.skills-wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.skill-box {
+    display: inline-block;
+    background-color: #edf2f7;
+    color: #2d3748;
+    padding: 10px 20px;
+    margin: 8px;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 14px;
+    border: 1px solid #e2e8f0;
+}
+
+
+/* --- Projects Section --- */
+.projects-section {
+    padding: 80px 0;
+    background-color: #f7fafc;
+    border-top: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.project-card {
+    width: 31%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 3%;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+}
+
+.project-card:last-child {
+    margin-right: 0;
+}
+
+.project-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project-info {
+    padding: 20px;
+}
+
+.project-info h3 {
+    margin: 0 0 10px 0;
+    color: #2d3748;
+    font-size: 18px;
+}
+
+.project-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #718096;
+}
+
+
+/* --- Resume Section --- */
+.resume-section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.resume-section p {
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: #4a5568;
+}
+
+.download-btn {
+    background-color: #dd6b20;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 30px;
+    font-weight: bold;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.download-btn:hover {
+    background-color: #c05621;
+}
+
+
+/* --- Contact Section --- */
+.contact-section {
+    padding: 60px 0;
+    background-color: #2d3748;
+    color: #ffffff;
+    border-top: 1px solid #e2e8f0;
+}
+
+.contact-section .heading {
+    color: #ffffff;
+}
+
+.contact-sub {
+    color: #a0aec0;
+    margin-bottom: 30px;
+}
+
+.contact-details {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #1a202c;
+    padding: 25px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.contact-details p {
+    margin: 12px 0;
+    font-size: 16px;
+}
+
+
+/* --- Footer Section --- */
+.footer {
+    background-color: #1a202c;
+    color: #a0aec0;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 14px;
+    border-top: 1px solid #2d3748;
+}
+
+.footer p {
+    margin: 5px 0;
+}
